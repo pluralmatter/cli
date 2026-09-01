@@ -1,6 +1,6 @@
 {
   "name": "pluralmatter",
-  "version": "0.0.0-bootstrap.0",
+  "version": "0.1.0",
   "description": "Talk to an evolving Plural Matter mind from your terminal.",
   "type": "module",
   "bin": {
