@@ -1,0 +1,45 @@
+{
+  "name": "pluralmatter",
+  "version": "0.0.0-bootstrap.0",
+  "description": "Talk to an evolving Plural Matter mind from your terminal.",
+  "type": "module",
+  "bin": {
+    "pluralmatter": "bin/pluralmatter.js"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "plural-matter"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pluralmatter/cli.git"
+  },
+  "homepage": "https://pluralmatter.com",
+  "bugs": {
+    "url": "https://github.com/pluralmatter/cli/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
